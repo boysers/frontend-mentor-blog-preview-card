@@ -96,9 +96,8 @@ main {
 }
 
 .card__content__tag,
-.card__content__sub-title,
-.card__author__name {
-  font-size: 0.875rem;
+.card__content__sub-title {
+  font-size: clamp(0.75rem, 2.5vw, 0.875rem);
 }
 
 .card__content__tag {
@@ -109,7 +108,7 @@ main {
 }
 
 .card__content__title {
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 4vw, 1.5rem);
   transition: color 80ms ease-out;
 }
 
@@ -129,7 +128,7 @@ main {
 }
 
 .card__content__description {
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
   line-height: 1.5;
   color: var(--gray-500);
 }
@@ -153,21 +152,7 @@ main {
 }
 
 .card__author__name {
+  font-size: 0.875rem;
   transition: text-decoration 75ms ease-out;
   margin-right: 12px;
-}
-
-@media (max-width: 768px) {
-  .card__content__title {
-    font-size: 1.25rem;
-  }
-
-  .card__content__tag,
-  .card__content__sub-title {
-    font-size: 0.75rem;
-  }
-
-  .card__content__description {
-    font-size: 0.875rem;
-  }
 }
