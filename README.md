@@ -37,7 +37,7 @@ Users should be able to:
 
 - [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
-- ...
+- [clamp css function](https://developer.mozilla.org/fr/docs/Web/CSS/clamp)
 
 ## Author
 
